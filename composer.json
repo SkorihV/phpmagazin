@@ -1,0 +1,12 @@
+{
+    "name": "vitaliy.skoryh/phpmagazin",
+    "authors": [
+        {
+            "name": "Виталий С",
+            "email": "skorih.vitalii@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "v2.6.31"
+    }
+}
