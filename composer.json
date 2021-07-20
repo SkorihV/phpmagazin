@@ -1,5 +1,10 @@
 {
     "name": "vitaliy.skoryh/phpmagazin",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
     "authors": [
         {
             "name": "Виталий С",
@@ -7,6 +12,8 @@
         }
     ],
     "require": {
-        "smarty/smarty": "v2.6.31"
+        "php" : ">=7.2",
+        "smarty/smarty": "v2.6.31",
+        "ext-mysqli": "*"
     }
 }
